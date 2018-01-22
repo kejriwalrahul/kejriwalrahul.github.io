@@ -5,6 +5,10 @@
 
   <body>
     {{ content }}
+	
+	{% if page.is_home == False %}
+    	{% include pre-footer.html %}
+    {% endif %}
     {% include footer.html %}
 
   </body>
