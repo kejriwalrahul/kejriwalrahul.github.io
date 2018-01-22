@@ -7,7 +7,7 @@
     
   </div>
   {% endif %}
-  <div class="content" style="background-color: rgba(255,255,255,0.8); z-index: 1">
+  <div class="content" style="background-color: rgba(255,255,255,0.9); z-index: 1">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
       <span class="date">{{ include.page.date | date: "%B, %Y" }}</span>
@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <div class="extra content" style="background-color: rgba(255,255,255,0.8); z-index: 1">
+  <div class="extra content" style="background-color: rgba(255,255,255,0.9); z-index: 1">
     <div class="ui mini labels">
       {% for label in include.page.labels %}
       <div class="ui basic label">{{ label }}</div>

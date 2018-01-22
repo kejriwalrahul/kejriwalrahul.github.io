@@ -10,5 +10,5 @@ labels:
   - Verilog
   - Hardware Design
 summary: 
-  16-bit Three Stage Pipeline processor implemented in Verilog
+  16-bit 3-Stage Pipeline processor implemented in Verilog
 ---
