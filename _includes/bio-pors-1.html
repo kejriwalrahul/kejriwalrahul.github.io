@@ -10,12 +10,12 @@
     {% for entry in site.data.bio.pors %}
 
     <div class="ui grid">
-      <div class="twelve wide column no-bottom">
+      <div class="twelve wide column {% if forloop.index != forloop.length %}no-bottom{% endif %}">
         <div class="ui accordion">
           <div class="title {% if forloop.index == 1 %}active{% endif %}">
             <p class="ui no-bottom"><i class="dropdown icon"></i><b>{{ entry.position }}</b></p>
-            <p class="ui no-bottom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ entry.company }}</p>
-            <p class="ui no-bottom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://"
+            <p class="ui no-bottom" style="margin-left: 1.5em;">{{ entry.company }}</p>
+            <p class="ui no-bottom" style="margin-left: 1.5em;"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://"
               }}</a></p>
           </div>
           <div class="content {% if forloop.index == 1 %}active{% endif %}">

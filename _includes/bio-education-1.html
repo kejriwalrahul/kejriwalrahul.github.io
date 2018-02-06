@@ -10,7 +10,7 @@
   {% for entry in site.data.bio.education %}
 
   <div class="ui grid">
-    <div class="twelve wide column no-bottom">
+    <div class="twelve wide column {% if forloop.index != forloop.length %}no-bottom{% endif %}">
       <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
       {% if entry.studyType %}
       <p class="ui no-bottom">{{ entry.studyType }} in {{ entry.area }}</p>

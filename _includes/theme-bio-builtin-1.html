@@ -1,8 +1,11 @@
 <div style="margin-top: 10px; " class="ui stackable grid container">
 
-  <div class="sixteen wide column no-bottom">
+  <div class="sixteen wide column no-bottom" style="text-align: center;">
     <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
     {% include bio-network-links.html %}
+    <a href="{{ site.baseurl}}/bio.pdf" download>
+      <button class="ui positive button"><i class="download  large icon icon-color inverted" style="font-size: 1.3em"></i>PDF</button>
+    </a>
   </div>
 
   <div class="eight wide right aligned column">

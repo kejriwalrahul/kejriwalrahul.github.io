@@ -10,7 +10,7 @@
     {% for entry in site.data.bio.awards %}
 
     <div class="ui grid">
-      <div class="sixteen wide column no-bottom">
+      <div class="sixteen wide column {% if forloop.index != forloop.length %}no-bottom{% endif %}">
         <p class="ui no-bottom">
           <b>{{ entry.title }}</b>{% if entry.awarder %}, {{ entry.awarder }}{% endif %}{% if entry.date %}, {{ entry.date }}{% endif %}
         </p>
