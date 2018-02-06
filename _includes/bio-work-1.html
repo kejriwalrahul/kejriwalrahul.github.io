@@ -13,7 +13,12 @@
       <div class="twelve wide column {% if forloop.index != forloop.length %}no-bottom{% endif %}">
         <div class="ui accordion">
           <div class="title {% if forloop.index == 1 %}active{% endif %}">
-            <p class="ui no-bottom"><i class="dropdown icon"></i><b>{{ entry.position }}</b></p>
+            <table class="ui no-bottom">
+              <tr>
+                <td style="vertical-align: top;"><i class="dropdown icon"></i></td>
+                <td><b>{{ entry.position }}</b></td>
+              </tr>
+            </table>
             <p class="ui no-bottom" style="margin-left: 1.5em;">{{ entry.company }}</p>
             <p class="ui no-bottom" style="margin-left: 1.5em;"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://"
               }}</a></p>
