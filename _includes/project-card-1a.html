@@ -14,9 +14,16 @@
   </div>
   {% endif %}
   <div class="content" style="background-color: rgba(255,255,255,0.9); z-index: 1">
-    <span class="header">{{ include.page.title }}</span>
+    <span class="header">
+      {{ include.page.title }}
+      <span class="ui right floated left aligned">
+        {% if include.page.demo %}
+        <div class="ui mini basic red label">Live-Demo</div>
+        {% endif %}
+      </span>
+    </span>
     <div class="meta">
-      <span class="date">{{ include.page.date | date: "%B, %Y" }}</span>
+      <span class="date">{{ include.page.date | date: "%B, %Y" }}</span>      
     </div>
     <br>
     <div class="description" style="font-weight: 500;">
