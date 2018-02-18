@@ -3,7 +3,8 @@ layout: project
 type: project
 image: images/astar.gif
 title: A* Visualization
-projecturl: https://github.com/kejriwalrahul/A-Star-Visualization
+projecturl: http://kejriwalrahul.github.io/A-Star-Visualization/
+demo: true
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-01
 labels:
