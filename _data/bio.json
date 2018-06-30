@@ -82,6 +82,9 @@
       "keywords": [
         "NLTK",
         "scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "CUDA",
         "Django",
         "NodeJS",
         "AngularJS",
@@ -96,9 +99,9 @@
       "area": "Computer Science & Engineering",
       "studyType": "B.Tech.",
       "startDate": "2014-08-01",
-      "endDate": "Present",
+      "endDate": "2018-07-20",
       "scores": [
-        ["CGPA", "9.78"],
+        ["CGPA", "9.79"],
       ],
       "courses": [
       ]
