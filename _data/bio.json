@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Rahul Kejriwal",
-    "label": "Student",
+    "label": "Data Scientist",
     "picture": "/images/mypic2.jpeg",
     "email": "kejriwalrahul.1996@gmail.com",
     "website": "https://kejriwalrahul.github.io",
-    "summary": "Pursuing a B.Tech. in Computer Science & Engineering at IIT Madras. I expect to graduate in 2018.",
+    "summary": "Working as a Data Scientist at Microsoft IDC, Hyderabad. Graduated at the top of my class in 2018 with a B.Tech. in Computer Science & Engineering from IIT Madras.",
     "profiles": [
       {
         "network": "github",
@@ -37,6 +37,11 @@
     },
     {
       "name": "Machine Learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
       "keywords": [
       ]
     },
