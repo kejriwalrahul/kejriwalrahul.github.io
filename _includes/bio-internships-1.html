@@ -1,18 +1,18 @@
 <!-- Used by theme-bio-builtin-1 -->
 
-{% if site.data.bio.work %}
+{% if site.data.bio.internships %}
 <div class="row">
   <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom">Work</h3>
+    <h3 class="ui left aligned header no-bottom">Internships</h3>
   </div>
 
   <div class="fourteen wide column no-bottom">
-    {% for entry in site.data.bio.work %}
+    {% for entry in site.data.bio.internships %}
 
     <div class="ui grid">
       <div class="twelve wide column {% if forloop.index != forloop.length %}no-bottom{% endif %}">
         <div class="ui accordion">
-          <div class="title {% if entry.highlights %}{% if forloop.index == 1 %}active{% endif %}{% endif %}">
+          <div class="title {% if forloop.index == 1 %}active{% endif %}">
             <table class="ui no-bottom">
               <tr>
                 <td style="vertical-align: top;"><i class="dropdown icon"></i></td>
@@ -23,18 +23,18 @@
             <p class="ui no-bottom" style="margin-left: 1.5em;"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://"
               }}</a></p>
           </div>
-          {% if entry.highlights %}
           <div class="content {% if forloop.index == 1 %}active{% endif %}">
             <p class="transition hidden">
               <p class="ui no-bottom">{{ entry.summary }}</p>
+              {% if entry.highlights %}
               <ul style="margin: 0px;">
                 {% for highlight in entry.highlights %}
                 <li>{{ highlight }}</li>
                 {% endfor %}
               </ul>
+              {% endif %}
             </p>
           </div>
-          {% endif %}
         </div>
       </div>
       <div class="four wide right aligned column no-bottom">

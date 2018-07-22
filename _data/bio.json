@@ -5,7 +5,7 @@
     "picture": "/images/mypic2.jpeg",
     "email": "kejriwalrahul.1996@gmail.com",
     "website": "https://kejriwalrahul.github.io",
-    "summary": "Working as a Data Scientist at Microsoft IDC, Hyderabad. Graduated at the top of my class in 2018 with a B.Tech. in Computer Science & Engineering from IIT Madras.",
+    "summary": "Working as a <i>Data & Applied Scientist</i> at <i>Microsoft IDC, Hyderabad</i>. Graduated at the top of my class in 2018 with a B.Tech. in Computer Science & Engineering from <i>IIT Madras</i>.",
     "profiles": [
       {
         "network": "github",
@@ -126,6 +126,16 @@
   "work": [
     {
       "company": "Microsoft IDC, Hyderabad",
+      "position": "Data & Applied Scientist",
+      "website": "https://microsoft.com/en-in/msidc/",
+      "startDate": "Jul 2018",
+      "endDate": "Present",
+      "summary": "",
+    }
+  ],
+  "internships": [
+    {
+      "company": "Microsoft IDC, Hyderabad",
       "position": "Research Engineering Intern",
       "website": "https://microsoft.com/en-in/msidc/",
       "startDate": "May 2017",
@@ -239,10 +249,10 @@
       "summary": "Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship program funded by the Department of Science and Technology of the Government of India, aimed at encouraging students to take up research careers in the areas of basic sciences, engineering and medicine."
     },
     {
-      "title": "Sri V Ramachandran Prize",
-      "date": "2017",
+      "title": "President of India Prize",
+      "date": "2018",
       "awarder": "IIT Madras",
-      "summary": "Awarded for attaining for highest CGPA till 4th Semester in the CSE 2014 batch"
+      "summary": "Awarded for attaining the highest CGPA in the B.Tech. and Dual Degree Programme of the 2018 graduating batch of IIT Madras. <br><br>Also, awarded the <i>Sri V Ramachandran Prize</i> (2017), the <i> Computer Age Management Service Pvt. Ltd. Prize</i> (2018) and the <i>B Ravichandran Memorial Prize</i> (2018) for attaining the highest CGPA in the CSE batch in the second year of study, third year of study and overall B.Tech. Degree Programme respectively."
     }
   ],
   "references": [
