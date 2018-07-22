@@ -244,15 +244,15 @@
   ],
   "awards": [
     {
-      "title": "KVPY scholarship holder under SX Stream",
-      "date": "2013",
-      "summary": "Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship program funded by the Department of Science and Technology of the Government of India, aimed at encouraging students to take up research careers in the areas of basic sciences, engineering and medicine."
-    },
-    {
       "title": "President of India Prize",
       "date": "2018",
       "awarder": "IIT Madras",
       "summary": "Awarded for attaining the highest CGPA in the B.Tech. and Dual Degree Programme of the 2018 graduating batch of IIT Madras. <br><br>Also, awarded the <i>Sri V Ramachandran Prize</i> (2017), the <i> Computer Age Management Service Pvt. Ltd. Prize</i> (2018) and the <i>B Ravichandran Memorial Prize</i> (2018) for attaining the highest CGPA in the CSE batch in the second year of study, third year of study and overall B.Tech. Degree Programme respectively."
+    },
+    {
+      "title": "KVPY scholarship holder under SX Stream",
+      "date": "2013",
+      "summary": "Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship program funded by the Department of Science and Technology of the Government of India, aimed at encouraging students to take up research careers in the areas of basic sciences, engineering and medicine."
     }
   ],
   "references": [
