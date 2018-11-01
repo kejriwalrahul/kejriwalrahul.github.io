@@ -73,11 +73,11 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Linux",
-        "Git",
-        "Weka",
-        "LATEX",
         "Protege",
+        "Weka",
+        "Git",
+        "Linux",
+        "LATEX",
         "...",
       ]
     },
@@ -93,7 +93,6 @@
         "Django",
         "NodeJS",
         "AngularJS",
-        "Yeoman",
         "...",
       ]      
     }
@@ -131,6 +130,9 @@
       "startDate": "Jul 2018",
       "endDate": "Present",
       "summary": "",
+      "highlights": [
+        "Working in the Bing Translation team to power translation experiences on Bing search.",
+      ]
     }
   ],
   "internships": [
